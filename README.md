@@ -1,4 +1,4 @@
-# PocketWhale
+# PocketWhale software
 ### PocketWhale was created as startup menu for [Pocketwhale cyberdeck](https://github.com/Glinek/PocketWhale-cyberdeck) made for [hackaday contest](https://hackaday.io/contest/186672-2022-cyberdeck-contest)
 ![image](https://user-images.githubusercontent.com/102923486/185929853-96ba7db2-388d-45be-a201-8f692ba48359.png)
 ## Instalation
