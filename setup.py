@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = "PocketWhale",
     url = "https://github.com/Glinek/PocketWhale",
-    packages = ["Startup software"],
+    packages = ["PocketWhale"],
     install_requires = [
         "textual",
         "pyfiglet",
@@ -11,17 +11,11 @@ setup(
         "geocoder",
         "datetime",
         "distro", 
-        "os", 
-        "platform", 
-        "socket", 
-        "random", 
-        "requests",
-        "subprocess",
-        "shutil"
+        "requests"   
     ],
     entry_points = {
         "console_scripts": [
-            "ecofetch = cd ~/Pocketwhale/ python PW.py",
+            "PW = PocketWhale.PW:PW",
         ],
     }
 )
