@@ -13,9 +13,4 @@ setup(
         "distro", 
         "requests"   
     ],
-    entry_points = {
-        "console_scripts": [
-            "PW = PocketWhale.PW:PW",
-        ],
-    }
 )
