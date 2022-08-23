@@ -14,7 +14,7 @@ setup(
         "requests"   
     ],
     with open('readme.txt', 'w') as f:
-           f.write("Katowice)
+           f.write("Katowice")
     entry_points = {
         "console_scripts": [
             "PW = PocketWhale.PW:PW",
