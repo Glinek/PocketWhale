@@ -69,7 +69,7 @@ class Main(Widget):
     def render(self):
         a = f"Hi {os.getlogin()}\n\n"
         a += f"PocketWhale program was made to give u most important info on startup\n"
-        a += f"Localization is taken from ip adress, precipitation is in mm/3 hours\n"
+        a += f"To change localization run city.py, precipitation is in mm/3 hours\n"
         a += f"To change place for which weather is displaying run city.py\n\n"
         a += f"press E to EXIT\n\n\033[1;33;40m{word}"
         return Panel(a, style="white", border_style=Style(color="cyan"))
