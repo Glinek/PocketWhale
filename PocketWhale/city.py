@@ -8,8 +8,8 @@ opt = input("")
 if opt == "1":
     print("Write city you want to get weather forecast about")
     iu = input("")
-    with open('readme.txt', 'w') as f:
+    with open('City.txt', 'w') as f:
             f.write(iu)
 if opt == "2":
-    with open('readme.txt', 'w') as f:
+    with open('City.txt', 'w') as f:
             f.write(g.city)
