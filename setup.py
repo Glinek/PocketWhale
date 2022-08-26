@@ -15,7 +15,7 @@ setup(
     ],
     entry_points = {
         "console_scripts": [
-            "PW = PocketWhale.PW:pw",
+            "PW = PocketWhale:PW",
         ],
     }
 )
