@@ -8,7 +8,9 @@ from datetime import datetime
 from rich.style import Style
 from rich.align import Align
 #city
-f = open('readme.txt', 'r')
+with open('City.txt', 'w') as f:
+    f.write("katowice")
+f = open('City.txt', 'r')
 content = f.read()
 #list of random words 
 WORDS = ("Have a nice day", "Always be creative", "100% not orginal", 
