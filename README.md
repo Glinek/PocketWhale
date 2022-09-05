@@ -1,9 +1,4 @@
 ## PocketWhale
-### _Table of contents_
-* [General Info](General-Info)
-* [Startup Software](Startup-Software)
- * [Instalation](instalation)
- * [Used projects](Used-projects) 
 ### _General Info_
 PocketWhale repository contains software that was made for PW (PocketWhale) [cyberdeck](https://hackaday.io/project/186766-pocketwhale). PW Software was made for [hackaday contest](https://hackaday.io/contest/186672-2022-cyberdeck-contest)
 
